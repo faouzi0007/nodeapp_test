@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: docker.io/faouzi0007/nodeapp:latest@sha256:e74c3f38920caaed42fc0de1bf4384e042a87dcc48cb23b7eaa07931bce8c108
+        image: docker.io/faouzi0007/nodeapp:latest
         ports:
         - containerPort: 3000
         
